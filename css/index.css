@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+* { 
+    margin: 0px;
+    padding: 0px; 
+    font-family: Roboto, sans-serif; 
+}
+img { 
+    max-width: 500px; 
+}
+.home { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.container {width: 926px;
+    margin: 0px auto;
+}
+.left-side .border { 
+    border-left: 3px solid rgb(255, 89, 89); 
+    padding: 0px 9px; 
+}
+
+.left-side h1 { 
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px; 
+}
+.right-section img { 
+    width: 330px; 
+}
+.left-side h1:first-child { 
+    color: rgb(51, 51, 51); 
+}
+.left-side h1:nth-child(2) { 
+    color: rgb(255, 181, 106); 
+}
+.left-side { 
+    width: 332px; 
+}
+.left-side p { 
+    font-size: 13px; 
+    font-weight: 500; 
+    color: rgb(72, 72, 72); 
+    margin: 1rem 0px; 
+}
+.left-side button {
+     border: none; color: rgb(255, 255, 255); 
+     background: rgb(255, 89, 89); 
+     padding: 10px 20px; 
+     border-radius: 4px; 
+     font-size: 14px; 
+     cursor: pointer; 
+    }
+.title h1 { 
+    text-align: center; 
+    color: rgb(27, 24, 64);
+    font-weight: bolder; 
+    font-size: 35px; 
+}
+.title h1 span { 
+    color: rgb(255, 181, 106); 
+}
+.box-container { 
+    display: flex; 
+}
+.box-container .box.box-1 { 
+    background: rgb(237, 245, 246); 
+}
+.box-container .box.box-2 {
+    background: #FFEEEE;
+}
+.box-container .box.box-3 { 
+    background: rgb(255, 244, 214); 
+}
+.box-container .box img { 
+    width: 100px; 
+}
+h1.title { 
+    text-align: center; 
+    color: rgb(27, 24, 64); 
+    font-weight: bolder; 
+    font-size: 35px; 
+    margin-bottom: 2rem; 
+}
+h1.title span { 
+    color: rgb(255, 181, 106); 
+}
+.box-container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.box-container .box img { 
+    width: 100px; 
+}
+.box-container .box {
+    width: 231px;
+    margin: 0px 1rem;
+    border-radius: 30px;
+    padding: 18px 18px;
+}
+.box-container .box h1 {
+    text-align: left;
+    font-size: 19px !important;
+    padding: 16px 0px;
+    letter-spacing: 1px;
+}
+h1.title {
+    text-align: center;
+    color: #1B1840;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+section#myMission {
+    margin-top: 2rem;
+}
+h1.title span {
+    color: #ffb56a;
+}
+
+.box-container .box p {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 18px 3px 0px;
+}
+
+.develop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-box {
+    width: 33%;
+    margin: 0px 31px 0px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.description {
+    width: 57%;
+}
+
+.description h1 {
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.description p {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 0;
+}
+
+.description button {
+    border: none;
+    background: #FF5959;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Community{
+    margin: 3rem 0;
+}
+
+#Community .develop-container{
+    flex-direction: row-reverse;
+}
+
+section#develop {
+    margin-top: 3.5rem;
+}
+
+.mission-2022{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    color: #fff;
+    flex-direction: column;
+}
+
+.mission-2022 h1 span{
+    color: #B34144;
+}
